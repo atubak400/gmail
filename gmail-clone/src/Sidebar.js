@@ -32,6 +32,9 @@ function Sidebar() {
       <SidebarOptions Icon={NearMeIcon} title='Sent' number={54} />
       <SidebarOptions Icon={NoteIcon} title='Drafts' number={54} />
       <SidebarOptions Icon={ExpandMoreIcon} title='More' number={54} />
+      <div className='sidebar__footer'>
+        <div className='sidebar__footerIcons'></div>
+      </div>
     </div>
   )
 }
