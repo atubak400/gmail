@@ -2,6 +2,7 @@ import './sidebar.css'
 import { Button } from '@material-ui/core'
 import React from 'react'
 import AddIcon from '@material-ui/icons/Add'
+import SidebarOptions from './SidebarOptions'
 
 function Sidebar() {
   return (
@@ -12,6 +13,7 @@ function Sidebar() {
       >
         Compose
       </Button>
+      <SidebarOptions />
     </div>
   )
 }
